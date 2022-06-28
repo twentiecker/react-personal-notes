@@ -2,9 +2,6 @@ import React from "react";
 import NoteInputTitleCharLimit from "./NoteInputTitleCharLimit";
 import { Form, Button, InputGroup } from "react-bootstrap";
 
-// let temp = 1;
-// let temp2 = 0;
-
 class NoteInput extends React.Component {
   constructor(props) {
     super(props);

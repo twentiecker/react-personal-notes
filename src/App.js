@@ -61,11 +61,6 @@ class App extends React.Component {
       };
     });
 
-    // if (this.archivedNotes.length !== 0) {
-    //   const note = this.archivedNotes.filter((note) => note.id === id);
-    //   this.archivedNotes.splice(this.archivedNotes.indexOf(note[0]), 1);
-    // }
-
     if (this.searchedNotes.length !== 0) {
       const note = this.searchedNotes.filter((note) => note.id === id);
       this.searchedNotes.splice(this.searchedNotes.indexOf(note[0]), 1);
